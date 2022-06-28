@@ -9,11 +9,13 @@
 # 출력
 개를 출력한다.
 
-|\_/|  
+<pre><code>|\_/|  
 |q p|   /}  
 ( 0 )"""\  
 |"^"`    |  
 ||_/=\\__|  
+</code></pre>
+
 
 https://www.acmicpc.net/problem/10172
 
