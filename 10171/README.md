@@ -8,10 +8,11 @@
 
 # 출력
 고양이를 출력한다.
-\    /\
- )  ( ')
-(  /  )
- \(__)|
+
+&#92;&nbsp;&nbsp;&nbsp;&nbsp;&#47;&#92;  
+&nbsp;)&nbsp;&nbsp;(&nbsp;')    
+(&nbsp;&nbsp;/&nbsp;&nbsp;)  
+&nbsp;\(__)|  
 
 https://www.acmicpc.net/problem/10171
 
