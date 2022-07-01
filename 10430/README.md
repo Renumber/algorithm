@@ -17,10 +17,10 @@
 5 8 4
 
 # 예제 출력 1 
-1
-1
-0
-0
+1  
+1  
+0  
+0  
 
 https://www.acmicpc.net/problem/18108
 
