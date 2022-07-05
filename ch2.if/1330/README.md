@@ -32,7 +32,7 @@ A와 B가 같은 경우에는 '=='를 출력한다.
 ==
 
 # 출처
-https://www.acmicpc.net/problem/2588
+https://www.acmicpc.net/problem/1330
 
 # 날짜
 22/07/04
