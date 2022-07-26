@@ -16,7 +16,7 @@ The Curious Case of Benjamin Button
 6
 
 # 예제 입력 2 
- The first character is a blank
+&nbsp;The first character is a blank
 
 # 예제 출력 2 
 6
