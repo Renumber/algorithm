@@ -37,7 +37,7 @@ A, B, C가 주어졌을 때, 손익분기점을 구하는 프로그램을 작성
 시간제한이 0.35초로 짧기 때문에 while을 활용하지 않고 수학적 계산(a / (c - b) + 1)을 통해 해결해야 한다.
 
 # 출처
-https://www.acmicpc.net/problem/1152
+https://www.acmicpc.net/problem/1712
 
 # 날짜
-22/07/26
+22/07/29
