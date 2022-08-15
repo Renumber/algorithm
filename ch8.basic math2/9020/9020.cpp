@@ -19,12 +19,11 @@ bool nonp[MAX] = {};
 void check(int n) {
 	int temp = n / 2, i = 0;
 	for (int i = 0; i < n / 2; i++) {
-		if (!(nonp[temp - i] || nonp[temp + i])) {
+		if (!(nonp[temp - i] || nonp[temp + i])) {//false일 경우 소수 
 			cout << temp - i << ' ' << temp + i << '\n';
 			return;
 		}
 	}
-
 }
 
 int main()
