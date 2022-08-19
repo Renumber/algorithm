@@ -9,7 +9,8 @@
 
 아래 그림은 원판이 5개인 경우의 예시이다.
 
-
+![img](https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/11729/hanoi.png)
+ 
 
 # 입력
 첫째 줄에 첫 번째 장대에 쌓인 원판의 개수 N (1 ≤ N ≤ 20)이 주어진다.
@@ -34,6 +35,24 @@
 
 # 출처
 https://www.acmicpc.net/problem/11729
+
+# 풀이
+원판의 가장 아래를 제외한 원판들을 목표지점이 아닌 다른 곳으로 이동시킨다.  
+가장 아래 원판을 목표지점으로 이동시킨다.  
+그런 다음 다른 곳에 이동시킨 나머지 원판을 목표지점으로 옮긴다.  
+이를 재귀적으로 표현하면 다음과 같다.
+```
+void rec(int from, int to, int other, int num) {
+    if (num == 1) {
+        cout << from << ' ' << to << '\n';
+    }
+    else {
+        rec(from, other, to, num - 1);
+        cout << from << ' ' << to << '\n';
+        rec(other, to, from, num - 1);
+    }
+}
+```
 
 # 날짜
 22/08/17
