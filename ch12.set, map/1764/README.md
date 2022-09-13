@@ -30,7 +30,7 @@ ohhenrie
 https://www.acmicpc.net/problem/1764
 
 # 풀이
-속도를 위해 이진 탐색트리로 구현된 STL의 set을 이용하여 해결한다.
+속도를 위해 이진 탐색트리로 구현된 STL의 set을 이용하여 해결한다.  
 set : https://cplusplus.com/reference/set/set/
 
 # 날짜
