@@ -20,6 +20,26 @@
 https://www.acmicpc.net/problem/2609
 
 # 풀이
+처음에는 다음과 같이 a,b를 2에서부터 a,b의 작은 값까지 나누면서 나누어 떨어지면 해당 값으로 a,b를 다시 나누어 최소공배수를 구하고, 나온 최소공배수 * a * b를 하여 값을 구했으나
+```
+while (true) {
+  if (a % temp == 0 && b % temp == 0) {
+    a /= temp;
+    b /= temp;
+    div *= temp;
+    temp = 2;
+  }else {
+    temp++;
+  }
+  if (temp >= a || temp >= b) {
+    break;
+  }
+}
+cout << div << '\n' << a * b * div ;
+```
+유클리드 호제법을 이용하여 더 간단하게 해결 가능하여 수정하여 해결  
+유클리드 호제법 : https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%81%B4%EB%A6%AC%EB%93%9C_%ED%98%B8%EC%A0%9C%EB%B2%95
+
 
 # 날짜
 22/09/27
