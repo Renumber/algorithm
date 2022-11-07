@@ -34,6 +34,7 @@ for (int i = 1; i < n; i++) {
     dp[i] = maxNum;
     maxRes = max(dp[i], maxRes);
 }
+```
   
 # 출처 
 https://www.acmicpc.net/problem/11053
