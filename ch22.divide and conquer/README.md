@@ -1,3 +1,3 @@
-# 큐, 덱
+# 분할 정복
 
-https://www.acmicpc.net/step/12
+https://www.acmicpc.net/step/20
