@@ -36,4 +36,4 @@
 https://www.acmicpc.net/problem/1992
 
 # 날짜
-22/01/03
+23/01/03
